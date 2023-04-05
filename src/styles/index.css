@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 0.3rem;
+  list-style: none;
+}
+
+.list .active {
+  font-weight: bold;
+  color: hsl(271, 14%, 47%);
+}
+
+.list > li:hover {
+  color: hsl(271, 14%, 47%);
+  cursor: pointer;
+}
+
